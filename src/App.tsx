@@ -290,20 +290,7 @@ function App() {
                   href="tel:+2348110180000"
                   className="block text-center text-[#0276B1] hover:text-[#03A9F4] transition-colors"
                 >
-                  +234 811 018 0000
-                </a>
-              </div>
-
-              <div className="group p-8 rounded-2xl glass-effect hover-scale transition-all duration-300">
-                <Phone className="w-12 h-12 mx-auto mb-6 text-[#03A9F4] group-hover:scale-110 transition-transform" />
-                <p className="font-semibold text-lg text-center mb-3">
-                  Investment Advisory
-                </p>
-                <a
-                  href="tel:+2348129242939"
-                  className="block text-center text-[#0276B1] hover:text-[#03A9F4] transition-colors"
-                >
-                  +234 812 924 2939
+                  +234 816 790 1719
                 </a>
               </div>
 
@@ -316,7 +303,7 @@ function App() {
                   href="tel:+2348149491632"
                   className="block text-center text-[#0276B1] hover:text-[#03A9F4] transition-colors"
                 >
-                  +234 814 949 1632
+                  +234 818 000 0618
                 </a>
               </div>
 
