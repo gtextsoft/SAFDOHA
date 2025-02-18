@@ -104,9 +104,16 @@ function App() {
               <br />
               <span className="text-white">Masterclass</span>
             </h1>
-            <p className="text-2xl md:text-3xl mb-4 text-[#0276B1] font-light">
-              with Dr. Stephen Akintayo
-            </p>
+            <div className="relative inline-block mb-8">
+              <div className="absolute inset-0 bg-gradient-to-r from-[#0276B1]/20 to-[#03A9F4]/20 blur-2xl transform -skew-x-12 scale-150"></div>
+              <p className="text-3xl md:text-5xl bg-gradient-to-r from-[#0276B1] via-[#03A9F4] to-[#0276B1] text-transparent bg-clip-text font-extrabold relative z-10 animate-pulse tracking-wide">
+                with{" "}
+                <br />
+                <span className="text-4xl md:text-6xl">
+                  Dr. Stephen Akintayo
+                </span>
+              </p>
+            </div>
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-8">
               Learn the Secrets of Wealth Creation & Smart Investments!
             </p>
