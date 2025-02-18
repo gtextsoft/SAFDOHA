@@ -7,6 +7,7 @@ import {
   Clock,
   DollarSign,
   Globe,
+  Mail,
   MapPin,
   Phone,
   Rocket,
@@ -16,8 +17,8 @@ import {
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import "./App.css"; // Add this import
+import drStephen from "./Dr Stephen.png"; // Add this import at the top
 import logo from "./Stephen logo.png";
-import drStephen from "./Dr Stephen.png";  // Add this import at the top
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -75,14 +76,14 @@ function App() {
                   className="flex items-center space-x-2 hover:text-[#03A9F4] transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  <span>+234 811 018 0000</span>
+                  <span>+234 816 790 1719</span>
                 </a>
                 <a
                   href="tel:+2348149491632"
                   className="flex items-center space-x-2 hover:text-[#03A9F4] transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  <span>+234 814 949 1632</span>
+                  <span>+234 818 000 0618</span>
                 </a>
               </div>
             </div>
