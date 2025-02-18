@@ -107,8 +107,7 @@ function App() {
             <div className="relative inline-block mb-8">
               <div className="absolute inset-0 bg-gradient-to-r from-[#0276B1]/20 to-[#03A9F4]/20 blur-2xl transform -skew-x-12 scale-150"></div>
               <p className="text-3xl md:text-5xl bg-gradient-to-r from-[#0276B1] via-[#03A9F4] to-[#0276B1] text-transparent bg-clip-text font-extrabold relative z-10 animate-pulse tracking-wide">
-                with{" "}
-                <br />
+                with <br />
                 <span className="text-4xl md:text-6xl">
                   Dr. Stephen Akintayo
                 </span>
@@ -132,6 +131,8 @@ function App() {
               <div className="animate-pulse">
                 <div className="bg-[#0276B1]/10 backdrop-blur-sm border-2 border-[#0276B1] rounded-xl px-6 py-3">
                   <p className="text-[#03A9F4] font-bold text-xl md:text-2xl">
+                    Event Value:
+                    <span className="text-white ml-2">1,000 QAR</span>
                     <span className="block text-green-400 text-lg md:text-xl mt-1">
                       FREE for first 100 people!
                     </span>
@@ -223,7 +224,9 @@ function App() {
                       <Clock className="w-6 h-6 text-[#0276B1] flex-shrink-0" />
                       <div>
                         <div className="font-semibold">Time</div>
-                        <div className="text-gray-400">6:00 PM - 9:00 PM (Doha time)</div>
+                        <div className="text-gray-400">
+                          6:00 PM - 9:00 PM (Doha time)
+                        </div>
                       </div>
                     </div>
                     <div className="flex items-center gap-4 glass-effect p-4 rounded-xl">
