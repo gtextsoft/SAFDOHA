@@ -275,15 +275,14 @@ function App() {
             <h2 className="section-title text-center text-white">
               Get in Touch
             </h2>
-            <p className="section-description text-center text-gray-300">
+            <p className="section-description text-center text-gray-300 mb-16">
               Our team of expert consultants is ready to guide you through your
               investment journey
             </p>
-            <div className="grid md:grid-cols-3 gap-8 mt-16">
-              {/* Update contact cards with new styling */}
-              <div className="group p-10 rounded-2xl glass-effect hover-scale">
-                <Phone className="w-12 h-12 mx-auto mb-8 text-[#03A9F4] group-hover:scale-110 transition-transform" />
-                <p className="font-semibold text-xl text-center mb-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="group p-8 rounded-2xl glass-effect hover-scale transition-all duration-300">
+                <Phone className="w-12 h-12 mx-auto mb-6 text-[#03A9F4] group-hover:scale-110 transition-transform" />
+                <p className="font-semibold text-lg text-center mb-3">
                   Sales Inquiries
                 </p>
                 <a
@@ -294,9 +293,9 @@ function App() {
                 </a>
               </div>
 
-              <div className="group p-10 rounded-2xl glass-effect hover-scale">
-                <Phone className="w-12 h-12 mx-auto mb-8 text-[#03A9F4] group-hover:scale-110 transition-transform" />
-                <p className="font-semibold text-xl text-center mb-4">
+              <div className="group p-8 rounded-2xl glass-effect hover-scale transition-all duration-300">
+                <Phone className="w-12 h-12 mx-auto mb-6 text-[#03A9F4] group-hover:scale-110 transition-transform" />
+                <p className="font-semibold text-lg text-center mb-3">
                   Investment Advisory
                 </p>
                 <a
@@ -307,9 +306,9 @@ function App() {
                 </a>
               </div>
 
-              <div className="group p-10 rounded-2xl glass-effect hover-scale">
-                <Phone className="w-12 h-12 mx-auto mb-8 text-[#03A9F4] group-hover:scale-110 transition-transform" />
-                <p className="font-semibold text-xl text-center mb-4">
+              <div className="group p-8 rounded-2xl glass-effect hover-scale transition-all duration-300">
+                <Phone className="w-12 h-12 mx-auto mb-6 text-[#03A9F4] group-hover:scale-110 transition-transform" />
+                <p className="font-semibold text-lg text-center mb-3">
                   General Inquiries
                 </p>
                 <a
@@ -317,6 +316,19 @@ function App() {
                   className="block text-center text-[#0276B1] hover:text-[#03A9F4] transition-colors"
                 >
                   +234 814 949 1632
+                </a>
+              </div>
+
+              <div className="group p-8 rounded-2xl glass-effect hover-scale transition-all duration-300">
+                <Mail className="w-12 h-12 mx-auto mb-6 text-[#03A9F4] group-hover:scale-110 transition-transform" />
+                <p className="font-semibold text-lg text-center mb-3">
+                  Email Us
+                </p>
+                <a
+                  href="mailto:products@stephenakintako.com"
+                  className="block text-center text-[#0276B1] hover:text-[#03A9F4] transition-colors break-all"
+                >
+                  products@stephenakintako.com
                 </a>
               </div>
             </div>
