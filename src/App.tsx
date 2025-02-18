@@ -125,8 +125,6 @@ function App() {
               <div className="animate-pulse">
                 <div className="bg-[#0276B1]/10 backdrop-blur-sm border-2 border-[#0276B1] rounded-xl px-6 py-3">
                   <p className="text-[#03A9F4] font-bold text-xl md:text-2xl">
-                    Event Value: 
-                    <span className="text-white ml-2">1,000 QAR</span>
                     <span className="block text-green-400 text-lg md:text-xl mt-1">
                       FREE for first 100 people!
                     </span>
