@@ -110,7 +110,7 @@ function App() {
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-8">
               Learn the Secrets of Wealth Creation & Smart Investments!
             </p>
-            <div className="flex flex-wrap gap-6 justify-center">
+            <div className="flex flex-wrap gap-6 justify-center items-center">
               <a
                 href="https://app.mailingboss.com/lists/67b35e76967a6/subscribe"
                 target="_blank"
@@ -122,9 +122,17 @@ function App() {
                 </span>
                 <div className="absolute inset-0 bg-[#03A9F4] transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
               </a>
-              <p className="text-[#0276B1] font-semibold">
-                Event Value: 1,000 QAR – FREE for first 100 people!
-              </p>
+              <div className="animate-pulse">
+                <div className="bg-[#0276B1]/10 backdrop-blur-sm border-2 border-[#0276B1] rounded-xl px-6 py-3">
+                  <p className="text-[#03A9F4] font-bold text-xl md:text-2xl">
+                    Event Value: 
+                    <span className="text-white ml-2">1,000 QAR</span>
+                    <span className="block text-green-400 text-lg md:text-xl mt-1">
+                      FREE for first 100 people!
+                    </span>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -210,7 +218,7 @@ function App() {
                       <Clock className="w-6 h-6 text-[#0276B1] flex-shrink-0" />
                       <div>
                         <div className="font-semibold">Time</div>
-                        <div className="text-gray-400">6:00 PM - 9:00 PM</div>
+                        <div className="text-gray-400">6:00 PM - 9:00 PM (Doha time)</div>
                       </div>
                     </div>
                     <div className="flex items-center gap-4 glass-effect p-4 rounded-xl">
@@ -273,48 +281,54 @@ function App() {
       <div id="contact" className="section-gradient py-32 px-4">
         <div className="container mx-auto max-w-7xl">
           <div className="content-fade-in">
-            <h2 className="section-title text-center text-white">
+            <h2 className="section-title text-center text-white text-4xl font-bold mb-6">
               Get in Touch
             </h2>
-            <p className="section-description text-center text-gray-300 mb-16">
+            <p className="section-description text-center text-gray-300 mb-16 max-w-2xl mx-auto">
               Our team of expert consultants is ready to guide you through your
               investment journey
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="group p-8 rounded-2xl glass-effect hover-scale transition-all duration-300">
-                <Phone className="w-12 h-12 mx-auto mb-6 text-[#03A9F4] group-hover:scale-110 transition-transform" />
-                <p className="font-semibold text-lg text-center mb-3">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              <div className="group p-8 rounded-2xl glass-effect hover:bg-[#011627]/50 transition-all duration-300 transform hover:-translate-y-2">
+                <div className="bg-[#011627]/30 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-[#0276B1]/20 transition-colors">
+                  <Phone className="w-8 h-8 text-[#03A9F4] group-hover:scale-110 transition-transform" />
+                </div>
+                <p className="font-semibold text-xl text-center mb-4 text-white">
                   Sales Inquiries
                 </p>
                 <a
-                  href="tel:+2348110180000"
-                  className="block text-center text-[#0276B1] hover:text-[#03A9F4] transition-colors"
+                  href="tel:+2348167901719"
+                  className="block text-center text-[#03A9F4] hover:text-white transition-colors text-lg"
                 >
                   +234 816 790 1719
                 </a>
               </div>
 
-              <div className="group p-8 rounded-2xl glass-effect hover-scale transition-all duration-300">
-                <Phone className="w-12 h-12 mx-auto mb-6 text-[#03A9F4] group-hover:scale-110 transition-transform" />
-                <p className="font-semibold text-lg text-center mb-3">
+              <div className="group p-8 rounded-2xl glass-effect hover:bg-[#011627]/50 transition-all duration-300 transform hover:-translate-y-2">
+                <div className="bg-[#011627]/30 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-[#0276B1]/20 transition-colors">
+                  <Phone className="w-8 h-8 text-[#03A9F4] group-hover:scale-110 transition-transform" />
+                </div>
+                <p className="font-semibold text-xl text-center mb-4 text-white">
                   General Inquiries
                 </p>
                 <a
-                  href="tel:+2348149491632"
-                  className="block text-center text-[#0276B1] hover:text-[#03A9F4] transition-colors"
+                  href="tel:+2348180000618"
+                  className="block text-center text-[#03A9F4] hover:text-white transition-colors text-lg"
                 >
                   +234 818 000 0618
                 </a>
               </div>
 
-              <div className="group p-8 rounded-2xl glass-effect hover-scale transition-all duration-300">
-                <Mail className="w-12 h-12 mx-auto mb-6 text-[#03A9F4] group-hover:scale-110 transition-transform" />
-                <p className="font-semibold text-lg text-center mb-3">
+              <div className="group p-8 rounded-2xl glass-effect hover:bg-[#011627]/50 transition-all duration-300 transform hover:-translate-y-2">
+                <div className="bg-[#011627]/30 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-[#0276B1]/20 transition-colors">
+                  <Mail className="w-8 h-8 text-[#03A9F4] group-hover:scale-110 transition-transform" />
+                </div>
+                <p className="font-semibold text-xl text-center mb-4 text-white">
                   Email Us
                 </p>
                 <a
                   href="mailto:products@stephenakintako.com"
-                  className="block text-center text-[#0276B1] hover:text-[#03A9F4] transition-colors break-all"
+                  className="block text-center text-[#03A9F4] hover:text-white transition-colors text-lg break-all"
                 >
                   products@stephenakintako.com
                 </a>
