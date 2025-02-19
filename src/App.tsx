@@ -89,7 +89,8 @@ function App() {
             </div>
           </div>
         </nav>
-
+        <br/>
+            <br/>
         {/* Hero Content */}
         <div className="relative z-10 h-[calc(100vh-100px)] flex flex-col items-center justify-center px-4">
           <div
@@ -99,8 +100,7 @@ function App() {
                 : "opacity-0 translate-y-10"
             }`}
           >
-            <br/>
-            <br/>
+            
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="text-white">Doha Investment</span>
               <br />
