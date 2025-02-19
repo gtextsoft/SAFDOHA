@@ -108,6 +108,7 @@ function App() {
               <div className="absolute inset-0 bg-gradient-to-r from-[#0276B1]/20 to-[#03A9F4]/20 blur-2xl transform -skew-x-12 scale-150"></div>
               <p className="text-3xl md:text-5xl bg-gradient-to-r from-[#0276B1] via-[#03A9F4] to-[#0276B1] text-transparent bg-clip-text font-extrabold relative z-10 animate-pulse tracking-wide">
                 with <br />
+                <br />
                 <span className="text-4xl md:text-6xl">
                   Dr. Stephen Akintayo
                 </span>
