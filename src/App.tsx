@@ -99,6 +99,8 @@ function App() {
                 : "opacity-0 translate-y-10"
             }`}
           >
+            <br/>
+            <br/>
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="text-white">Doha Investment</span>
               <br />
