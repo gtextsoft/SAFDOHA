@@ -72,7 +72,7 @@ function App() {
               </div>
               <div className="hidden md:flex items-center space-x-8 text-white">
                 <a
-                  href="tel:+2348110180000"
+                  href="tel:+2348155555616"
                   className="flex items-center space-x-2 hover:text-[#03A9F4] transition-colors"
                 >
                   <Phone className="w-4 h-4" />
@@ -83,7 +83,7 @@ function App() {
                   className="flex items-center space-x-2 hover:text-[#03A9F4] transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  <span>+234 818 000 0618</span>
+                  <span>+2348155555616</span>
                 </a>
               </div>
             </div>
@@ -220,7 +220,7 @@ function App() {
                       <div>
                         <div className="font-semibold">Date</div>
                         <div className="text-gray-400">
-                          Monday, 7th April 2025
+                          Friday, 25th April 2025
                         </div>
                       </div>
                     </div>
